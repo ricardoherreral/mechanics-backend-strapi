@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Car": {
+      "displayName": "car",
+      "type": "component",
+      "repeatable": true,
+      "component": "car.car"
+    },
+    "RFC": {
+      "type": "string"
+    },
+    "require_invoice": {
+      "type": "boolean",
+      "default": false
+    },
+    "Address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
+    },
+    "phone_number": {
+      "type": "string",
+      "regex": "^\\d{10}$"
+    }
+  }
+}
