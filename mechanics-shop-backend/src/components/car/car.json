@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_car_cars",
+  "info": {
+    "displayName": "car",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "last_date_visit": {
+      "type": "date"
+    },
+    "description_of_last_work": {
+      "type": "richtext"
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
